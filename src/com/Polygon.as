@@ -105,8 +105,8 @@ package com
 				var random:Number = Math.random();
 				var vx:Number = _centerX + Math.sin(radian(i * _angle)) * (_radius * random);
 				var vy:Number = _centerY + Math.cos(radian(i * _angle)) * (_radius * random);
-				currentCanvas.graphics.moveTo(_centerX,_centerY);
-				currentCanvas.graphics.lineTo( vx,vy);
+//				currentCanvas.graphics.moveTo(_centerX,_centerY);
+//				currentCanvas.graphics.lineTo( vx,vy);
 				
 				points.push(new Point(vx,vy));
 				
@@ -141,8 +141,8 @@ package com
 				var random:Number = Math.random();
 				var vx:Number = _centerX + Math.sin(radian(i * _angle)) * _radius * random;
 				var vy:Number = _centerY + Math.cos(radian(i * _angle)) * _radius * random;
-				lastCanvas.graphics.moveTo(_centerX,_centerY);
-				lastCanvas.graphics.lineTo( vx,vy);
+//				lastCanvas.graphics.moveTo(_centerX,_centerY);
+//				lastCanvas.graphics.lineTo( vx,vy);
 				
 				points.push(new Point(vx,vy));
 				
